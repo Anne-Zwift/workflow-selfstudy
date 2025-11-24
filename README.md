@@ -40,7 +40,7 @@ This project requires an API URL to fetch and display data.
 - Create a new file in the root of the project directory named .env.
 - Add your API URL to this file using the Vite convention:
 
-# .env file content
+### .env file content
 
 VITE_API_URL="https://jsonplaceholder.typicode.com/posts"
 ⚠️ Note: If you don't define the VITE_API_URL, the application will display an error message and fail to load external data.
