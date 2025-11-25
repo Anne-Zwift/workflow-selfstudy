@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "prepare": "husky",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext js --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint . --ext js --fix"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
