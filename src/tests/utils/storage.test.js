@@ -29,7 +29,7 @@ describe('Storage functions', () => {
 
   describe('getToken', () => {
     it('retrieves the token from storage', () => {
-      localStorage.setItem('token', JSON.stringify('test-token'));
+      localStorage.setItem('token', JSON.stringify('test-Token'));
 
       const retrievedToken = getToken();
       expect(retrievedToken).toBe('test-Token');
