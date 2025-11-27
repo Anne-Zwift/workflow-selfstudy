@@ -12,11 +12,11 @@ describe('Storage functions', () => {
   beforeEach(() => {
     const storage = {}; // Create a object to store our data.
 
-    global.localStorage = {
+    /* global.localStorage = {
       // Create mock version of the localStorage methods.
       setItem: (key, value) => (storage[key] = value),
       getItem: (key) => storage[key],
-    };
+    };*/
   });
 
   describe('saveToken', () => {
