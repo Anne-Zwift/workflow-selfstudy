@@ -7,10 +7,15 @@ import { saveToken, getToken } from '../../utils/storage';
  * Each test starts with a fresh storage object.
  * Mock test for local storage methods setItem and getItem using beforeEach to hold our Object data.
  * Each function are tested separately.
+ *
+ * Code for mocking is replaced (green) with the jsdom.
  */
 describe('Storage functions', () => {
   beforeEach(() => {
-    const storage = {}; // Create a object to store our data.
+    localStorage.clear();
+
+    // Code for mocking is replaced with the jsdom
+    //const storage = {}; // Create a object to store our data.
 
     /* global.localStorage = {
       // Create mock version of the localStorage methods.
